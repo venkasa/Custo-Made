@@ -115,17 +115,17 @@
   color: #fff;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1050px) {
   .gpt3__footer-heading h1 {
     font-size: 44px;
     line-height: 50px;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .gpt3__footer-heading h1 {
-    font-size: 34px;
-    line-height: 42px;
+    font-size: 27px;
+    line-height: 38px;
   }
 
   .gpt3__footer-links div {
@@ -135,12 +135,5 @@
   .gpt3__footer-btn p {
     font-size: 14px;
     line-height: 20px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .gpt3__footer-heading h1 {
-    font-size: 27px;
-    line-height: 38px;
   }
 }

@@ -9,8 +9,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
-  margin-right: 5rem;
+  margin: 0;
 }
 
 .gpt3__header-content h1 {
@@ -125,12 +124,12 @@
 
 @media screen and (max-width: 650px) {
   .gpt3__header-content h1 {
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 36px;
+    line-height: 48px;
   }
 
   .gpt3__header-content p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
   }
 
@@ -144,24 +143,6 @@
 
   .gpt3__header-content__input input,
   .gpt3__header-content__input button {
-    font-size: 16px;
-    line-height: 24px;
-  }
-}
-
-@media screen and (max-width: 490px) {
-  .gpt3__header-content h1 {
-    font-size: 36px;
-    line-height: 48px;
-  }
-
-  .gpt3__header-content p {
-    font-size: 14px;
-    line-height: 24px;
-  }
-
-  .gpt3__header-content__input input,
-  .gpt3__header-content__input button {
     font-size: 12px;
     line-height: 16px;
   }
@@ -170,12 +151,15 @@
 .button {
   width: 226px;
   height: 56px;
-  padding: 16px 40px 16px 40px;
+  padding: 16px 40px;
   border-radius: 80px;
+  margin: 0;
   margin-top: 3rem;
   cursor: pointer;
   background: #646e86;
   color: white;
-  backdrop-filter: blur(2px);
+  border: none;
+  outline: none;
   font-size: 1rem;
+  text-align: center;
 }

@@ -93,7 +93,7 @@ a {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1050px) {
   .section__padding {
     padding: 4rem;
   }
@@ -103,7 +103,7 @@ a {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .section__padding {
     padding: 4rem 2rem;
   }

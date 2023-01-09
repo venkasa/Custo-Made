@@ -17,7 +17,6 @@
 }
 
 .gpt3__navbar-links_logo img {
-  width: 175px;
   height: 120px;
 }
 
@@ -110,13 +109,7 @@
   }
 }
 
-@media screen and (max-width: 700px) {
-  .gpt3__navbar {
-    padding: 2rem 4rem;
-  }
-}
-
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .gpt3__navbar {
     padding: 2rem;
   }
