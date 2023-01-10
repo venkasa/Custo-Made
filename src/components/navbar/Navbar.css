@@ -33,7 +33,11 @@
   align-items: center;
 }
 
-.navbar-links_container p,
+.navbar-links_container .links a {
+  font-size: 24px;
+  margin-left: 30px;
+}
+
 .navbar-sign p,
 .navbar-menu_container p {
   color: white;

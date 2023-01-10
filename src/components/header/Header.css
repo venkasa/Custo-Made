@@ -150,7 +150,6 @@
 
 .button {
   width: 226px;
-  height: 56px;
   padding: 16px 40px;
   border-radius: 80px;
   margin: 0;
@@ -162,4 +161,5 @@
   outline: none;
   font-size: 1rem;
   text-align: center;
+  line-height: 46px;
 }

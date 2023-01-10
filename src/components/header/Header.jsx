@@ -10,7 +10,7 @@ const Header = () => (
         We are the celebrated clothing manufacturer and supplier.At Custo Made
         enjoy guaranteed Low Prices and free shipping On most orders!
       </p>
-      <a href="#reach-us" className="button">
+      <a href="#reach-us" className="button" type="button">
         Request quote
       </a>
     </div>
