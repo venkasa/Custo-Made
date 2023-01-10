@@ -19,11 +19,8 @@ import Gloves from "../../assets/Gloves.png";
 
 const Products = () => {
   return (
-    <div
-      className="gpt3__header section__padding products__main-div"
-      id="products"
-    >
-      <div className="gpt3__header-content our__products" id="productCenter">
+    <div className="header section__padding products__main-div" id="products">
+      <div className="header-content our__products" id="productCenter">
         <h1 className="gradient__text">Our Products</h1>
       </div>
       <div className="products__layout gradient__text">

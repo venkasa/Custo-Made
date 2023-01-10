@@ -29,13 +29,10 @@ const CTA = () => {
   return (
     <>
       <div
-        className="gpt3__header section__padding products__main-div our__products"
+        className="header section__padding products__main-div our__products"
         id="CTA"
       >
-        <div
-          id="reach-us"
-          className="gpt3__header-content gradient__text title"
-        >
+        <div id="reach-us" className="header-content gradient__text title">
           Reach Us.
         </div>
         <div className="inputs">

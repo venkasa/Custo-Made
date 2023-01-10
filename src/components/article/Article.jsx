@@ -3,14 +3,14 @@ import "./Article.css";
 
 const Article = () => (
   <div
-    className="gpt3__header section__padding products__main-div gpt3__header section__padding gpt3__whatgpt3 section__margin"
+    className="header section__padding products__main-div header section__padding custo section__margin"
     id="article"
   >
     <div className="article__layout">
-      <div className="gpt3__whatgpt3-feature">
+      <div className="custo-feature">
         <div className="feature-image" alt="cover"></div>
       </div>
-      <div className="gpt3__whatgpt3-heading">
+      <div className="custo-heading">
         <h1 className="gradient__text">Custom Clothing</h1>
         <h2 className="gradient__text">
           Wholesale Apparel Printed With Your Logo
