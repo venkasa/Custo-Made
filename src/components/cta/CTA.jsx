@@ -38,7 +38,9 @@ const CTA = () => {
         className="header section__padding products__main-div our__products"
         id="CTA"
       >
-        <div className="header-content gradient__text title">Reach Us.</div>
+        <div id="reach-us" className="header-content gradient__text title">
+          Reach Us.
+        </div>
         <div className="inputs">
           <form className="form" onSubmit={handleSubmit(onSubmit)}>
             <input {...register("name")} type="text" placeholder="Name" />
