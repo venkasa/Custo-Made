@@ -24,6 +24,7 @@ const CTA = () => {
     formState: { errors, isValid, isDirty },
   } = useForm({
     resolver: yupResolver(schema),
+    mode: "onChange",
   });
 
   const onSubmit = (data) => {
